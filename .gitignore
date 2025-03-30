@@ -8,6 +8,7 @@ __pycache__/
 
 # Uploaded files
 UserUploadedFiles/
+Folder/UserUploadedFiles/
 
 # IDE specific files
 .vscode/
@@ -16,3 +17,12 @@ UserUploadedFiles/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Virtual environments
+myenv/
+myenv/Lib/site-packages/matplotlib/mpl-data/images/*.pdf
+
+myenv/
+*.dll
+*.lib
+*.pyd
