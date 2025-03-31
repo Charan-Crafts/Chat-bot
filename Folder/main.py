@@ -13,7 +13,7 @@ load_dotenv()
 model = ChatOpenAI(
     model="google/gemini-pro",
     openai_api_base="https://openrouter.ai/api/v1",
-    openai_api_key="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",
+    openai_api_key="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",
     temperature=0
 )
 
