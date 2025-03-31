@@ -7,13 +7,14 @@ from langchain_core.prompts import PromptTemplate
 
 
 load_dotenv()
-# api_key = os.getenv("API_KEY")
+api_key = os.getenv("OPENROUTER_API_KEY") 
+
 
 
 model = ChatOpenAI(
     model="google/gemini-pro",
     openai_api_base="https://openrouter.ai/api/v1",
-    openai_api_key="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",
+    openai_api_key=api_key,
     temperature=0
 )
 
