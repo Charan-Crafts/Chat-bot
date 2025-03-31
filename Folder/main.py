@@ -8,6 +8,8 @@ from langchain_core.prompts import PromptTemplate
 
 load_dotenv()
 api_key = os.getenv("OPENROUTER_API_KEY") 
+if not api_key:
+    raise ValueError("⚠️ API key is missing! Check .env file.")
 
 
 
