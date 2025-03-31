@@ -12,6 +12,8 @@ api_key = st.secrets["OPENROUTER_API_KEY"]
 
 import streamlit as st
 
+st.write(st.secrets)  # This will print available keys
+
 
 model = ChatOpenAI(
     model="google/gemini-pro",
