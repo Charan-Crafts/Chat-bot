@@ -17,7 +17,8 @@ st.write()  # This will print available keys
 
 model = ChatOpenAI(
     model="google/gemini-pro",
-    openai_api_base="https://openrouter.ai/api/v1",
+    # openai_api_base="https://openrouter.ai/api/v1",
+    openai_api_base="https://openrouter.ai/api/v1/chat/completions",
     openai_api_key=st.secrets["OPENROUTER_API_KEY"],
     temperature=0
 )
