@@ -5,7 +5,10 @@ __pycache__/
 
 # Environment variables
 .env
+
+# Virtual environments
 myenv/
+
 # Uploaded files
 UserUploadedFiles/
 Folder/UserUploadedFiles/
@@ -18,11 +21,12 @@ Folder/UserUploadedFiles/
 .DS_Store
 Thumbs.db
 
-# Virtual environments
-myenv/
-myenv/Lib/site-packages/matplotlib/mpl-data/images/*.pdf
+# Unnecessary binaries
+*.dll
+*.lib
+*.pyd
 
-myenv/
+# Ignore large binary files
 *.dll
 *.lib
 *.pyd
