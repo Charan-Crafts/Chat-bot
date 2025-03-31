@@ -13,7 +13,7 @@ api_key = os.getenv("API_KEY")
 model = ChatOpenAI(
     model="google/gemini-pro",
     openai_api_base="https://openrouter.ai/api/v1",
-    openai_api_key=api_key,
+    openai_api_key="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",
     temperature=0
 )
 
