@@ -7,7 +7,7 @@ from langchain_core.prompts import PromptTemplate
 
 
 load_dotenv()
-api_key = os.getenv("API_KEY")
+# api_key = os.getenv("API_KEY")
 
 
 model = ChatOpenAI(
